@@ -1,0 +1,64 @@
+/* CSS Variables and Theme Definitions */
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+  --color-bg: #181818;
+  --color-bg-secondary: #232323;
+  --color-bg-tertiary: #444444;
+  --color-text: #fff;
+  --color-accent: #ff8800;
+  --color-accent-light: #ffb347;
+  --color-border: #444;
+  --color-border-secondary: #333333;
+  --color-shadow: rgba(0,0,0,0.18);
+  --color-overlay: rgba(24,24,24,0.85);
+  --color-input-bg: #181818;
+  --color-input-border: #444;
+  --color-input-focus-bg: #232323;
+  --color-modal-bg: #232323;
+  --color-btn-hover-bg: #232323;
+  --color-btn-hover-text: #fff;
+  --color-btn-active-bg: #ffe5c2;
+  --color-btn-active-text: var(--color-accent);
+}
+
+body.light-theme {
+  --color-bg: #f7f7f7;
+  --color-bg-secondary: #fff;
+  --color-bg-tertiary: #e2e2e2;
+  --color-text: #232323;
+  --color-accent: #ff8800;
+  --color-accent-light: #ffb347;
+  --color-border: #ccc;
+  --color-border-secondary: #e0e0e0;
+  --color-shadow: rgba(0,0,0,0.08);
+  --color-overlay: rgba(255,255,255,0.92);
+  --color-input-bg: #f7f7f7;
+  --color-input-border: #ccc;
+  --color-input-focus-bg: #fff;
+  --color-modal-bg: #fff;
+  --color-btn-hover-bg: #eee;
+  --color-btn-hover-text: var(--color-accent);
+  --color-btn-active-bg: #fff3e0;
+  --color-btn-active-text: var(--color-accent);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.3s, color 0.3s;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+} 

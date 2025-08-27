@@ -1,0 +1,181 @@
+
+img {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.about .content .box .inner .img,
+.gallery .content .box,
+.classes .content .img,
+.classes .content .class-items .item .item-img,
+.price-package .content .box .inner .img,
+.start-today .content .img,
+.schedule .content .text .img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.about .content .box .inner .img::before,
+.gallery .content .box::before,
+.classes .content .img::before,
+.classes .content .class-items .item .item-img::before,
+.price-package .content .box .inner .img::before,
+.start-today .content .img::before,
+.schedule .content .text .img-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 136, 0, 0.2), transparent);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.about .content .box .inner .img:hover::before,
+.gallery .content .box:hover::before,
+.classes .content .img:hover::before,
+.classes .content .class-items .item .item-img:hover::before,
+.price-package .content .box .inner .img:hover::before,
+.start-today .content .img:hover::before,
+.schedule .content .text .img-container:hover::before {
+    opacity: 1;
+}
+
+/* Smooth zoom effect for all images */
+.about .content .box .inner .img img,
+.gallery .content .box img,
+.classes .content .img img,
+.classes .content .class-items .item .item-img img,
+.price-package .content .box .inner .img img,
+.start-today .content .img img,
+.schedule .content .text .img-container img {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.about .content .box .inner .img:hover img,
+.gallery .content .box:hover img,
+.classes .content .img:hover img,
+.classes .content .class-items .item .item-img:hover img,
+.price-package .content .box .inner .img:hover img,
+.start-today .content .img:hover img,
+.schedule .content .text .img-container:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.about .content .box .inner,
+.classes .content .class-items .item,
+.price-package .content .box .inner {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about .content .box .inner:hover,
+.classes .content .class-items .item:hover,
+.price-package .content .box .inner:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0 15px 35px rgba(255, 136, 0, 0.3);
+    box-shadow: 0 15px 35px rgba(255, 136, 0, 0.3);
+}
+
+
+.gallery .content .box {
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.gallery .content .box:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    -webkit-box-shadow: 0 10px 25px rgba(255, 136, 0, 0.4);
+    box-shadow: 0 10px 25px rgba(255, 136, 0, 0.4);
+}
+
+.btn:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0 5px 15px rgba(255, 136, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(255, 136, 0, 0.3);
+}
+
+
+.price-package .content .box .inner .price-tag {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.price-package .content .box .inner:hover .price-tag {
+    background-color: #e67e00;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+.classes .content .class-items .item .item-img .price {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.classes .content .class-items .item:hover .item-img .price {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.classes .content .class-items .item .item-text a {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.classes .content .class-items .item .item-text a:hover {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+    color: #ff8800;
+}
+
+
+@media (max-width: 768px) {
+    .about .content .box .inner:hover,
+    .classes .content .class-items .item:hover,
+    .price-package .content .box .inner:hover {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    
+    .gallery .content .box:hover {
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+}
+
+
+* {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+} 

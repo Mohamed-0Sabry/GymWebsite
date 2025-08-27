@@ -1,0 +1,100 @@
+
+.search-overlay {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: var(--color-overlay);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.search-overlay.active { 
+  display: flex; 
+}
+
+.search-modal {
+  background: var(--color-modal-bg);
+  border-radius: 16px;
+  padding: 32px 24px 24px 24px;
+  box-shadow: 0 8px 32px 0 var(--color-shadow);
+  min-width: 320px;
+  max-width: 90vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-search {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-size: 22px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  transition: background 0.18s, color 0.18s;
+}
+
+.close-search:hover, .close-search:focus {
+  background: var(--color-btn-hover-bg);
+  color: var(--color-btn-hover-text);
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-input-border);
+  background: var(--color-input-bg);
+  color: var(--color-text);
+  font-size: 18px;
+  outline: none;
+  transition: border 0.18s, background 0.18s;
+  box-shadow: 0 2px 8px 0 var(--color-shadow);
+}
+
+.search-form input[type="text"]:focus {
+  border: 2px solid var(--color-accent);
+  background: var(--color-input-focus-bg);
+}
+
+.search-form button[type="submit"] {
+  background: var(--color-accent);
+  color: var(--color-text);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form button[type="submit"]:hover, .search-form button[type="submit"]:focus {
+  background: var(--color-btn-hover-bg);
+  color: var(--color-btn-hover-text);
+}
+
+.search-form button[type="submit"]:active {
+  background: var(--color-btn-active-bg);
+  color: var(--color-btn-active-text);
+} 

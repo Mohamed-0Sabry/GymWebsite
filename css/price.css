@@ -1,0 +1,118 @@
+
+
+
+.price-package{
+	padding: 80px 0px;
+	background-color: var(--color-bg); 
+}
+.price-package h2{
+	font-size: 30px;
+	font-weight: 500;
+	color:#ff8800; 
+	padding: 0px 0px 20px;
+	text-align: center;
+}
+
+.price-package .title-p{
+ font-size: 15px;
+ line-height: 20px;
+ color: var(--color-text);
+ margin:0;
+ text-align: center;
+ padding:0 20% 50px;
+ font-family: 'Open-sans', sans-serif;
+}
+
+.price-package .content{
+	-webkit-display: flex;
+	display: flex;
+}
+.price-package .content .box{
+	flex:0 0 33.33%;
+	max-width: 33.33%;
+	padding: 15px;
+}
+.price-package .content .box .inner{
+	background-color: var(--color-bg-secondary);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.price-package .content .box .inner:hover{
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+	-webkit-box-shadow: 0 15px 35px rgba(255, 136, 0, 0.3);
+	box-shadow: 0 15px 35px rgba(255, 136, 0, 0.3);
+}
+.price-package .content .box .inner .price-tag{
+	padding: 15px;
+	font-size: 20px;
+	background-color: #ff8800; 
+	color: var(--color-text);
+	text-align: center;
+	font-weight: 700;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.price-package .content .box .inner:hover .price-tag{
+	background-color: #e67e00;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.price-package .content .box .inner .text{
+	padding:30px 15px;
+	text-align: center;
+}
+.price-package .content .box .inner .text h3{
+	font-size: 24px;
+	color:#ff8800;
+	margin:0;
+	padding:0px 0px 20px;
+	font-weight: 700;
+}
+.price-package .content .box .inner .text p{
+ font-size: 15px;
+ line-height: 20px;
+ color: var(--color-text);
+ margin:0;
+ text-align: center;
+ padding:0 0 5px;
+ font-family: 'Open-sans', sans-serif;	
+}
+.price-package .content .box .inner .text .btn{
+    padding: 8px 30px;
+    background-color: #ff8800; 
+    color: var(--color-text);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    margin-top: 10px;
+}
+.price-package .content .box .inner .text .btn:hover{
+	border-color:#ff8800;
+	color:#ff8800;
+	background-color: transparent;
+	-webkit-transform: translateY(-2px);
+	transform: translateY(-2px);
+}
+.price-package .content .box .inner .img{
+	overflow: hidden;
+	position: relative;
+}
+.price-package .content .box .inner .img img{
+	width: 100%;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.price-package .content .box .inner .img:hover img{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+

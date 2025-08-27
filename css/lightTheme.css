@@ -1,0 +1,90 @@
+
+
+body.light-theme header {
+    background: rgba(255,255,255,0.92);
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+  }
+  body.light-theme header .logo a,
+  body.light-theme header .logo a span {
+    color: #232323;
+  }
+  body.light-theme header .nav ul li a {
+    color: #232323;
+  }
+  body.light-theme header .nav ul li a:hover, body.light-theme header .nav ul li a.active {
+    background: #ff8800;
+    color: #fff;
+  }
+  body.light-theme header .nav-icon {
+    color: #232323;
+  }
+  body.light-theme header .nav-icon:hover, body.light-theme header .nav-icon:focus {
+    background: #eee;
+    color: #ff8800;
+  }
+  body.light-theme .auth-section .Login {
+    background: #ff8800;
+    color: #fff;
+  }
+  body.light-theme .auth-section .Signup {
+    color: #ff8800;
+    border: 1px solid #ff8800;
+  }
+  body.light-theme .auth-section .Signup:hover {
+    background: #ff8800;
+    color: #fff;
+  }
+  body.light-theme .auth-section .Login:hover {
+    background: #fff;
+    color: #ff8800;
+  }
+  body.light-theme .search-modal {
+    background: #fff;
+    color: #232323;
+  }
+  body.light-theme .search-form input[type="text"] {
+    background: #f7f7f7;
+    color: #232323;
+    border: 1px solid #ccc;
+  }
+  body.light-theme .search-form input[type="text"]:focus {
+    border: 1.5px solid #ff8800;
+    background: #fff;
+  }
+  body.light-theme .search-form button[type="submit"] {
+    background: #ff8800;
+    color: #fff;
+  }
+  body.light-theme .search-form button[type="submit"]:hover, body.light-theme .search-form button[type="submit"]:focus {
+    background: #232323;
+    color: #ff8800;
+  }
+  body.light-theme .close-search {
+    color: #ff8800;
+  }
+  body.light-theme .close-search:hover, body.light-theme .close-search:focus {
+    background: #eee;
+    color: #232323;
+  }
+  
+  @media (max-width: 991px) {
+    header .auth-section {
+      flex-direction: column;
+      gap: 8px;
+      margin-left: 0;
+      margin-top: 12px;
+      align-items: flex-start;
+    }
+    header .auth-section a {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px 0;
+      border-radius: 8px;
+    }
+  }
+  
+  .container{
+      max-width: 1170px;
+      margin: auto;
+  }

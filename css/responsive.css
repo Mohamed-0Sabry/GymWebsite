@@ -1,0 +1,730 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+    padding: 0 20px;
+  }
+
+  .home h1 {
+    font-size: 50px;
+  }
+
+  .price-package .title-p {
+    padding: 0 10% 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+  }
+  header {
+    display: none;
+  }
+  .table {
+    display: none;
+  }
+
+  .home {
+    height: 100vh;
+    background-position: center;
+    padding: 10px;
+  }
+
+  .home h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .home .container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about .content {
+    flex-wrap: wrap;
+  }
+
+  .about .content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .about .content .box:nth-child(3) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .service .content {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .service .content .text h2 {
+    font-size: 28px;
+  }
+
+  .classes .content {
+    flex-wrap: wrap;
+  }
+
+  .classes .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .classes .content .img {
+    display: none;
+  }
+
+  .classes .content .class-items .item {
+    flex-wrap: wrap;
+  }
+
+  .classes .content .class-items .item .item-text,
+  .classes .content .class-items .item .item-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .classes .content .class-items .item:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .start-today .content {
+    flex-wrap: wrap;
+  }
+
+  .start-today .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .start-today .content .text {
+    text-align: center;
+  }
+
+  .schedule .content {
+    flex-wrap: wrap;
+  }
+
+  .schedule .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .schedule .content .text {
+    text-align: center;
+  }
+
+  .schedule .content .timing .table {
+    font-size: 14px;
+  }
+
+  .schedule .content .timing .table td {
+    padding: 6px 4px;
+  }
+
+  .gallery .content {
+    flex-wrap: wrap;
+  }
+
+  .gallery .content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .price-package .content {
+    flex-wrap: wrap;
+  }
+
+  .price-package .content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .price-package .content .box:nth-child(3) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .price-package .title-p {
+    padding: 0 5% 50px;
+  }
+
+  .contact .content {
+    flex-wrap: wrap;
+  }
+
+  .contact .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact .content .text {
+    text-align: center;
+  }
+
+  .contact .content .text .info li {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+    padding: 0 10px;
+  }
+
+  .home {
+    height: 100vh;
+    padding: 5px;
+  }
+
+  .home h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .home .go-down {
+    bottom: 30px;
+    width: 20px;
+    height: 30px;
+  }
+
+  .home .go-down .fa {
+    font-size: 14px;
+  }
+
+  .about {
+    padding: 60px 0;
+  }
+
+  .about .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about .content .box .inner .text {
+    padding: 20px;
+  }
+
+  .about .content .box .inner .text h4 {
+    font-size: 18px;
+  }
+
+  .about .content .box .inner .text p {
+    font-size: 14px;
+  }
+
+  .service {
+    padding: 60px 0;
+  }
+
+  .service .content .text h2 {
+    font-size: 24px;
+  }
+
+  .service .content .text p {
+    font-size: 14px;
+  }
+
+  .service .content .accordian-container .head h4 {
+    font-size: 16px;
+  }
+
+  .service .content .accordian-container .body p {
+    font-size: 14px;
+  }
+
+  .classes {
+    padding: 60px 0 30px;
+  }
+
+  .classes .content .text h2 {
+    font-size: 24px;
+  }
+
+  .classes .content .text p {
+    font-size: 14px;
+  }
+
+  .classes .content .class-items .item .item-text h4 {
+    font-size: 18px;
+  }
+
+  .classes .content .class-items .item .item-text p {
+    font-size: 14px;
+  }
+
+  .classes .content .class-items .item .item-img .price {
+    height: 40px;
+    width: 50px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .start-today {
+    padding: 60px 0;
+  }
+
+  .start-today .content .text h2 {
+    font-size: 24px;
+  }
+
+  .start-today .content .text p {
+    font-size: 14px;
+  }
+
+  .schedule {
+    padding: 60px 0;
+  }
+
+  .schedule .content .text h2 {
+    font-size: 24px;
+  }
+
+  .schedule .content .text p {
+    font-size: 14px;
+  }
+
+  .schedule .content .timing .table {
+    font-size: 12px;
+  }
+
+  .schedule .content .timing .table td {
+    padding: 4px 2px;
+  }
+
+  .gallery {
+    padding: 60px 0;
+  }
+
+  .gallery h2 {
+    font-size: 24px;
+  }
+
+  .gallery .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .price-package {
+    padding: 60px 0;
+  }
+
+  .price-package h2 {
+    font-size: 24px;
+  }
+
+  .price-package .title-p {
+    font-size: 14px;
+    padding: 0 20px 40px;
+  }
+
+  .price-package .content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .price-package .content .box .inner .text h3 {
+    font-size: 20px;
+  }
+
+  .price-package .content .box .inner .text p {
+    font-size: 14px;
+  }
+
+  .contact {
+    padding: 60px 0;
+  }
+
+  .contact .content .text h2 {
+    font-size: 24px;
+  }
+
+  .contact .content .text p {
+    font-size: 14px;
+  }
+
+  .contact .content .form input,
+  .contact .content .form textarea {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .contact .content .form textarea {
+    height: 80px;
+  }
+
+  .contact .content .form button {
+    height: 40px;
+    font-size: 14px;
+    padding: 0 30px;
+  }
+
+  .contact .content .text .info li {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+
+  .contact .content .text .info li span {
+    font-size: 16px;
+  }
+
+  .contact .content .text .social a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin-right: 8px;
+  }
+
+  .contact .content .text .social a span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .home .go-down {
+    bottom: 20px;
+    width: 18px;
+    height: 25px;
+  }
+
+  .home .go-down .fa {
+    font-size: 12px;
+  }
+
+  .about {
+    padding: 40px 0;
+  }
+
+  .about .content .box .inner .text {
+    padding: 15px;
+  }
+
+  .about .content .box .inner .text h4 {
+    font-size: 16px;
+  }
+
+  .about .content .box .inner .text p {
+    font-size: 13px;
+  }
+
+  .service {
+    padding: 40px 0;
+  }
+
+  .service .content .text h2 {
+    font-size: 22px;
+  }
+
+  .service .content .text p {
+    font-size: 13px;
+  }
+
+  .service .content .accordian-container .head {
+    padding: 10px 12px;
+  }
+
+  .service .content .accordian-container .head h4 {
+    font-size: 15px;
+  }
+
+  .service .content .accordian-container .body {
+    padding: 12px;
+  }
+
+  .service .content .accordian-container .body p {
+    font-size: 13px;
+  }
+
+  .classes {
+    padding: 40px 0 20px;
+  }
+
+  .classes .content .text h2 {
+    font-size: 22px;
+  }
+
+  .classes .content .text p {
+    font-size: 13px;
+  }
+
+  .classes .content .class-items .item .item-text {
+    padding: 12px;
+  }
+
+  .classes .content .class-items .item .item-text h4 {
+    font-size: 16px;
+  }
+
+  .classes .content .class-items .item .item-text p {
+    font-size: 13px;
+  }
+
+  .classes .content .class-items .item .item-img .price {
+    height: 35px;
+    width: 45px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  .start-today {
+    padding: 40px 0;
+  }
+
+  .start-today .content .text h2 {
+    font-size: 22px;
+  }
+
+  .start-today .content .text p {
+    font-size: 13px;
+  }
+
+  .schedule {
+    padding: 40px 0;
+  }
+
+  .schedule .content .text h2 {
+    font-size: 22px;
+  }
+
+  .schedule .content .text p {
+    font-size: 13px;
+  }
+
+  .schedule .content .timing .table {
+    font-size: 11px;
+  }
+
+  .schedule .content .timing .table td {
+    padding: 3px 1px;
+  }
+
+  .gallery {
+    padding: 40px 0;
+  }
+
+  .gallery h2 {
+    font-size: 22px;
+  }
+
+  .price-package {
+    padding: 40px 0;
+  }
+
+  .price-package h2 {
+    font-size: 22px;
+  }
+
+  .price-package .title-p {
+    font-size: 13px;
+    padding: 0 15px 30px;
+  }
+
+  .price-package .content .box .inner .text {
+    padding: 20px 10px;
+  }
+
+  .price-package .content .box .inner .text h3 {
+    font-size: 18px;
+  }
+
+  .price-package .content .box .inner .text p {
+    font-size: 13px;
+  }
+
+  .contact {
+    padding: 40px 0;
+  }
+
+  .contact .content .text h2 {
+    font-size: 22px;
+  }
+
+  .contact .content .text p {
+    font-size: 13px;
+  }
+
+  .contact .content .form input,
+  .contact .content .form textarea {
+    height: 35px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .contact .content .form textarea {
+    height: 70px;
+  }
+
+  .contact .content .form button {
+    height: 35px;
+    font-size: 13px;
+    padding: 0 25px;
+  }
+
+  .contact .content .text .info li {
+    font-size: 13px;
+    padding-left: 25px;
+    margin-bottom: 12px;
+  }
+
+  .contact .content .text .info li span {
+    font-size: 14px;
+  }
+
+  .contact .content .text .social {
+    padding-top: 20px;
+  }
+
+  .contact .content .text .social a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin-right: 6px;
+  }
+
+  .contact .content .text .social a span {
+    font-size: 14px;
+  }
+
+  .contact .content .text .copy {
+    font-size: 13px;
+    margin-top: 20px;
+    padding-top: 15px;
+  }
+}
+
+/* Extra Small Mobile Devices */
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 24px;
+  }
+
+  .about .content .box .inner .text h4 {
+    font-size: 15px;
+  }
+
+  .about .content .box .inner .text p {
+    font-size: 12px;
+  }
+
+  .service .content .text h2 {
+    font-size: 20px;
+  }
+
+  .service .content .text p {
+    font-size: 12px;
+  }
+
+  .classes .content .text h2 {
+    font-size: 20px;
+  }
+
+  .classes .content .text p {
+    font-size: 12px;
+  }
+
+  .start-today .content .text h2 {
+    font-size: 20px;
+  }
+
+  .start-today .content .text p {
+    font-size: 12px;
+  }
+
+  .schedule .content .text h2 {
+    font-size: 20px;
+  }
+
+  .schedule .content .text p {
+    font-size: 12px;
+  }
+
+  .gallery h2 {
+    font-size: 20px;
+  }
+
+  .price-package h2 {
+    font-size: 20px;
+  }
+
+  .price-package .title-p {
+    font-size: 12px;
+  }
+
+  .contact .content .text h2 {
+    font-size: 20px;
+  }
+
+  .contact .content .text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .home {
+    height: 100vh;
+  }
+
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .home .go-down {
+    bottom: 15px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .home {
+    background-image: url("../images/home@2x.jpg");
+  }
+}
+
+@media print {
+  .home .go-down,
+  .ham-burger,
+  .nav-icon,
+  .btn {
+    display: none !important;
+  }
+
+  .home {
+    height: auto;
+    background: none !important;
+  }
+
+  .home h1 {
+    color: #000 !important;
+  }
+
+  * {
+    color: #000 !important;
+    background: #fff !important;
+  }
+}
